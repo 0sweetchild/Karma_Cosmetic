@@ -1,7 +1,7 @@
 import About from './pages/About'
 import './App.css'
 import{ Routes, Route} from 'react-router'
-import Product from './pages/product'
+
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
@@ -17,7 +17,7 @@ function App() {
     <>
     <Layout>
      <Routes>
-      <Route path='/product' element={<Product/>}/>
+    
       <Route path='/about' element={<About/>}/>
       <Route path='/footer' element={<Footer/>}/>
       <Route path='/navbar' element={<Navbar/>}/>
