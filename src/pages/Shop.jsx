@@ -40,7 +40,7 @@ function Shop() {
       <hr className="my-4" />
 
       <div className="flex flex-wrap gap-10">
-        {products.map((product, index) => (
+        {products?.map((product, index) => (
           <div key={index} className="flex flex-col items-center bg-white p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform">
             <img src={product.image} alt={product.name} className="w-40 h-40 rounded-2xl object-cover" />
             <span className="font-bold mt-2">{product.name}</span>
